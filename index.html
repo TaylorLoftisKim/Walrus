@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css" media="all" type="text/css">
     <script src="js/jquery-3.1.1.js"></script>
     <script src="js/scripts.js"></script>
@@ -8,13 +9,26 @@
   </head>
   <body>
     <div class="container">
-      <h1>This is a page about a Walrus.</h1>
-      <div id="initially-showing">
-        <p><span class="clickable">Click here</span> to see the surprise!</p>
+      <div class="well">
+        <h1 class="jumbotron">This is a page about a Walrus.</h1>
+        <div id="initially-showing">
+          <p><span class="clickable1">Click here</span> to see the surprise!</p>
+        </div>
+        <div id="initially-hidden">
+          <p><span class="clickable1">Click here</span> to hide the cute walrus.</p>
+          <img src="img/walrus.jpg" alt="A Walrus">
+        </div>
       </div>
-      <div id="initially-hidden">
-        <p><span class="clickable">Click here</span> to hide the cute walrus.</p>
-        <img src="img/walrus.jpg" alt="A Walrus">
+      <div class="well">
+        <h1>Now onto sea otters!</h1>
+        <div id="initially-showing-otter">
+          <p><span class="clickable2">Click here</span> to see awesome sea otter photos.</p>
+        </div>
+        <div id="initially-hidden-otter">
+          <p><span class="clickable2">Click here</span> to hide the cute sea otters.</p>
+          <img src="img/sea-otter.jpg" alt="Cute sea otter image">
+          <img src="img/sea-otter2.jpg" alt="Another cute sea otter image">
+        </div>
       </div>
     </div>
   </body>
