@@ -21,3 +21,15 @@
 .clickable2:hover {
   text-decoration: underline;
 }
+
+.clickable2:link {
+  font-size: 100px;
+}
+
+img {
+  width: 100%;
+  max-height: 500px;
+}
+.for-img {
+  min-height: 500px;
+}
